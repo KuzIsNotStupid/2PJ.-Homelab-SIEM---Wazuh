@@ -53,3 +53,42 @@ https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshot
 3. Security Events
 - https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/security%20events.png
 - https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/security%20events2.png
+
+
+
+----
+
+Встреченные проблемы и их решения
+1. Проблема сетевой изоляции
+Проблема: Виртуальные машины не видели друг друга в сети
+Доказательство: Команда 'ip a' показывала разные подсети (10.0.2.15 vs другая)
+Решение: Настройка Host-Only сети в VirtualBox вместо NAT
+
+2. Ошибка установки на Simply Linux
+Проблема: wazuh.gpg: команда не найдена
+Причина: Simply Linux использует RPM-пакеты (yum), а не DEB (apt)
+Решение:
+# Создал каталог для репозиториев
+sudo mkdir -p /etc/yum.repos.d/
+# Настроил правильный репозиторий
+sudo tee /etc/yum.repos.d/wazuh.repo << 'EOF'
+[wazuh]
+name=Wazuh repository
+baseurl=https://packages.wazuh.com/4.x/yum/
+gpgcheck=1
+gpgkey=https://packages.wazuh.com/key/GPG-KEY-WAZUH
+enabled=1
+EOF
+
+3. Ошибки ввода команд Wazuh
+Проблема: Неправильное использование утилиты manage_agents
+Ошибки:
+-1 вместо -l для списка агентов
+-a без указания IP и имени
+Использование угловых скобок в командах
+Решение: Изучил справку команд (-h) и правильный синтаксис
+
+4. Ошибки Wazuh API
+Проблема: Wazuh API error: ERR_BAD_RESPONSE
+Причина: Нехватка ресурсов в виртуальной среде
+Решение: Увеличил RAM VM до 7GB, оптимизировал настройки JVM

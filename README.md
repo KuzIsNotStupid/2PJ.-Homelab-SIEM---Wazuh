@@ -68,9 +68,9 @@ https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshot
 Проблема: wazuh.gpg: команда не найдена
 Причина: Simply Linux использует RPM-пакеты (yum), а не DEB (apt)
 Решение:
-# Создал каталог для репозиториев
+- Создал каталог для репозиториев
 sudo mkdir -p /etc/yum.repos.d/
-# Настроил правильный репозиторий
+- Настроил правильный репозиторий
 sudo tee /etc/yum.repos.d/wazuh.repo << 'EOF'
 [wazuh]
 name=Wazuh repository

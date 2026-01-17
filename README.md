@@ -45,4 +45,4 @@
 Скриншоты
 
 1. Wazuh Dashboard - Обзор
-
+https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/dashboard.png

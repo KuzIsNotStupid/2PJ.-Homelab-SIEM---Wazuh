@@ -5,11 +5,9 @@
 
 Что сделано
 1. Инфраструктура
-Развернута виртуальная среда в VirtualBox
-
-Основной сервер: Ubuntu Server 24.04 с Wazuh Manager 4.7
-
-Агент: Simply Linux с Wazuh Agent
+- Развернута виртуальная среда в VirtualBox
+- Основной сервер: Ubuntu Server 24.04 с Wazuh Manager 4.7
+- Агент: Simply Linux с Wazuh Agent
 
 2. Установка и настройка
 Установлен Wazuh Manager (серверная часть SIEM)

@@ -51,5 +51,5 @@ https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshot
 https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/agents.PNG
 
 3. Security Events
-a. https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/security%20events.png
-b. https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/security%20events2.png
+  a. https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/security%20events.png
+  b. https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/security%20events2.png

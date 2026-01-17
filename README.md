@@ -42,3 +42,7 @@
 - Осуществляется сбор security events
 - События отображаются в Dashboard с классификацией MITRE ATT&CK
 
+Скриншоты
+
+1. Wazuh Dashboard - Обзор
+

@@ -46,7 +46,7 @@
 
 1. [Wazuh Dashboard - Обзор](screenshots/dashboard.png)
 2. [Список агентов](screenshots/agents.PNG)
-3. [Security Event 1](screenshots/SecurityEvents.PNG)
+3. [Security Event 1](screenshots/SecurityEvents.png)
 4. [Security Event 2](screenshots/SecurityEvents2.PNG)
 
 ----

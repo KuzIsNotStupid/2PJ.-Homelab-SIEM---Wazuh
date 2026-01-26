@@ -45,15 +45,9 @@
 Скриншоты
 
 1. [Wazuh Dashboard - Обзор](screenshots/dashboard.png)
-
-2. Список агентов
-https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/agents.PNG
-
-3. Security Events
-- https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/security%20events.png
-- https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/security%20events2.png
-
-
+2. [Список агентов](screenshots/agents.PNG)
+3. [Security Event1](screenshots/securityevents.PNG)
+4. [Security Event2](screenshots/securityevents2.PNG)
 
 ----
 

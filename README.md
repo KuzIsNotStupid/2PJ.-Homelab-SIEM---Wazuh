@@ -44,8 +44,7 @@
 
 Скриншоты
 
-1. Wazuh Dashboard - Обзор
-- [Wazuh Dashboard - Обзор](screenshots/dashboard.png)
+1. [Wazuh Dashboard - Обзор](screenshots/dashboard.png)
 
 2. Список агентов
 https://github.com/KuzIsNotStupid/2PJ.-Homelab-SIEM---Wazuh/blob/main/screenshots/agents.PNG
